@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HigherNumGame</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width"  >
+</head>
+<body>
+    <main>
+        <div class="glass"></div>
+        <header>
+            <h1 class="title">
+                What number is higher?
+            </h1>
+            <div class="level">
+                <p>Level:</p><p class="currentLevel">0</p><p class="time">30</p>
+            </div>
+            <button class="reboot" onclick="rebootNums()">reboot</button>
+        </header>
+        <div class="numBoxesArea">
+            <div class="box" onclick="firstBoxCheck()">
+                <p class="firstBox">0</p>
+            </div>
+            <div class="box" onclick="secondBoxCheck()">
+                <p class="secondBox">0</p>
+            </div>
+        </div>
+        
+       
+    </main>
+    <div class="buttonArea">
+        <button class="button">Play</button>
+    </div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
